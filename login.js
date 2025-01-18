@@ -16,4 +16,11 @@ function submit() {
     } else {
         alert("Please fill all the fields");
     }
+    // IsNan cheks for something is not a number like true or flase 
+    if (!isNaN(FirstName) && !isNaN (LastName)){
+        alert("Invalid name in first and last")
+    }
+    else{
+        alert("Valid name in first and last")
+    }
 }
