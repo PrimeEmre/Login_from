@@ -4,6 +4,7 @@ function submit() {
     let LastName = document.getElementById("Last_Name").value;
     let Email = document.getElementById("gmail").value;
     let password = document.getElementById("password").value;
+    
 
     // Setting the  elements for if statment 
     document.getElementById('FirstName').innerHTML = FirstName;
@@ -23,4 +24,8 @@ function submit() {
     else{
         alert("Valid name in first and last")
     }
+}
+
+function show_password(){
+
 }
