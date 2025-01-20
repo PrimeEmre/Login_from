@@ -25,7 +25,12 @@ function submit() {
         alert("Valid name in first and last")
     }
 }
-
 function show_password(){
-
-}
+    // Setting the password and their types 
+    let password = document.getElementById("password");
+    if (password.type === "password") {
+      password.type = "text";
+    } else {
+      password.type = "password";
+    }
+  }
